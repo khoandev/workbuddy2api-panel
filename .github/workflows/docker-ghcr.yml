@@ -6,7 +6,7 @@ name: docker-ghcr
 # tag 说明：main 推 latest + main + sha-xxxxxx；v1.2.3 推 1.2.3 / 1.2 / 1
 on:
   push:
-    branches: [main]
+    branches: [master]
     tags: ["v*"]
   pull_request:
     paths:
